@@ -135,10 +135,12 @@ _Fig 2: Circuit Diagram_
 ```
 car-overspeeding-alert-system/
 │
-├── sender.ino      # Simulates speed, LCD display, sends alert
-├── receiver.ino    # Receives alert, activates feedback devices
-├── README.md            # Project documentation
-├── images/              # diagrams/screenshots
+├── README.md              # Project documentation
+├── images/                # Contains circuit and schematic diagrams
+│ ├── circuit-diagram.png  # Breadboard wiring diagram of the system
+│ └── schematic.png        # Electronic schematic view of the receiver
+├── sender.ino             # Arduino sketch for the speed-sensing unit (Sender)
+└── receiver.ino           # Arduino sketch for the alert/monitoring unit (Receiver)
 ```
 
 ## Known Issues
@@ -155,7 +157,8 @@ car-overspeeding-alert-system/
 * **Web dashboard** for monitoring multiple vehicles.
 
 ## Acknowledgements
-- Project inspired by real-world challenges in **road safety and accident prevention**.
+- Project developed as part of the course requirement for **ICS 3105: Multimedia Applications** at **Strathmore University**.
+- [Car Overspeeding Detection Project - Nevon Projects](https://nevonprojects.com/car-overspeeding-detection-system/): Project inspired by real-world challenges in **road safety and accident prevention.**
 - Tools used: [Arduino IDE](https://www.arduino.cc/en/software), [Tinkercad Circuits](https://www.tinkercad.com/)
 
 ## License
