@@ -82,7 +82,7 @@ This project implements a simple embedded system to detect when a car exceeds a 
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/your-username/Car-Overspeeding-Alert-System.git
+git clone https://github.com/Fidelisaboke/Car-Overspeeding-Alert-System.git
 ```
 
 2. Open `sender.ino` and `receiver.ino` in the Arduino IDE.
